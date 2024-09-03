@@ -20,14 +20,14 @@ This project is a graphical user interface (GUI) application designed to extract
 - make sure you have the packages: [pillow](https://pillow.readthedocs.io/en/stable/), [pygame](https://www.pygame.org/download.shtml), [pytesseract](https://pypi.org/project/pytesseract/)
 - setup Tesseract OCR: download and install tesseract ocr, after which you will need to update the path in "tesseract_initialise.py" within the path_to_tesseract variable.
 
-  # How To Run
+ # How To Run
   - start the application by running main_program.py
   - The first screen to show up will be "start screen" : click the let's begin! button to move to the file selection screen.
   - File Selection Screen: submit a file name, this file will be opened for writing any extracted text. Next the uplad image screen will open up.
   - Upload Image : Upload an image from where text is to be read, click extract text.
   - finally click the exit button to leave the application
 
-    # Modules
+ # Modules
 
     ### main_program.py
     This is the main script of the application. It sets up the GUI using Tkinter, handles the user interactions and manages the different operations.
